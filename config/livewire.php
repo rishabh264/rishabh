@@ -48,7 +48,7 @@ return [
     |--------------------------------------------------------------------------
     | Livewire Endpoint Middleware Group
     |--------------------------------------------------------------------------
-    |
+    |loc
     | This value sets the middleware group that will be applied to the main
     | Livewire "message" endpoint (the endpoint that gets hit everytime,
     | a Livewire component updates). It is set to "web" by default.

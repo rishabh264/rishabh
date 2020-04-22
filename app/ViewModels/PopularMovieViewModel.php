@@ -16,7 +16,7 @@ class PopularMovieViewModel extends ViewModel
         $this->popularMovies = $popularMovies;
 		$this->genres = $genres;
 		$this->page = $page;
-        $this->nowPlayingMovies = $nowPlayingMovies;
+       
     }
 
     public function popularMovies()

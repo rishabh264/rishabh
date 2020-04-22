@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Movie, Tv and Actors Info </title>
-    <link rel="stylesheet" href="{{asset('css/main.css')}}">
+    <link rel="stylesheet" href="{{asset('resources/css/main.css')}}">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.min.js" defer></script>
     <livewire:styles>
@@ -153,6 +153,12 @@
 
 
     @yield('content')
+    <footer class="border border-t border-teal-800">
+        <div class="container mx-auto text-sm px-4 py-6">
+            Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-teal-300">TMDb API</a>
+        </div>
+    </footer>
+   
 
     @livewireScripts
      @yield('scripts')
