@@ -11,7 +11,7 @@ cache:
     - vendor
 before_script:
   - cp .env.travis .env.example
-   - composer self-update
+   
   - composer install --prefer-source --no-interaction --dev
   - php artisan key:generate
   
